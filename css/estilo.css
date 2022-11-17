@@ -1,2 +1,13 @@
-.bg-azul{background-color: lightblue;}
+/* CSS GENERAL */
+.bg-azul{background:linear-gradient(to bottom, lightblue, transparent);}
+.bg-azulInvertido{background: linear-gradient(to top, lightblue, transparent);}
 .col-12, .col-lg-12 {padding:0;}
+/* VISTA MOBILE */
+@media only screen and (max-width:768px){
+    a{font-size:1.5rem!important;}
+}
+/* VISTA DESKTOP */
+@media only screen and (min-width:1024px){
+    a{font-size:1.8rem; color:black; border-radius:20px; transition:all 2s;}
+    a:hover{background-color:blueviolet;border-radius: 20px;}
+}
